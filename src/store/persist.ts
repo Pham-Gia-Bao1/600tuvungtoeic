@@ -9,6 +9,8 @@ export const loadState = () => {
   } catch { return undefined; }
 };
 
-export const saveState = (state: any) => {
-  try { localStorage.setItem("state", JSON.stringify(state)); } catch {}
+export const saveState = (state: unknown) => {
+  try { localStorage.setItem("state", JSON.stringify(state)); } catch {
+    // ignore write errors
+  }
 };

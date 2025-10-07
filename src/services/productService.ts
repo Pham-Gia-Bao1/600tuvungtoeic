@@ -1,4 +1,4 @@
-import { axiosClient } from "./axiosClient";
+// import { axiosClient } from "./axiosClient";
 import type { Product } from "../types/product";
 
 export const productService = {

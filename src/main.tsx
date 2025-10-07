@@ -1,4 +1,3 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
@@ -7,6 +6,7 @@ import AppRoutes from "./routes/AppRoutes";
 import { AuthProvider } from "./contexts/AuthContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import "./index.css";
+import './styles/tailwind.css';
 
 function App() {
   return (
@@ -22,4 +22,6 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")!).render(<App />);
+const container = document.getElementById("root")!;
+const root = createRoot(container);
+root.render(<App />);
