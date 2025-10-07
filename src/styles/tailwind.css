@@ -1,1 +1,36 @@
 @import "tailwindcss";
+/* Import biến màu */
+@import './variables.css';
+
+@layer base {
+  body {
+    @apply bg-[var(--color-bg-dark)] text-[var(--color-text-primary)] font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[var(--color-text-primary)] font-semibold;
+  }
+
+  p {
+    @apply text-[var(--color-text-secondary)];
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[var(--color-primary)] text-white px-4 py-2 rounded-xl hover:bg-[var(--color-primary-hover)] transition;
+  }
+
+  .card {
+    @apply bg-[var(--color-bg-light)] rounded-2xl p-4 shadow-lg border border-[var(--color-border)];
+  }
+
+  .input {
+    @apply bg-[var(--color-surface)] text-[var(--color-text-primary)] rounded-lg px-3 py-2 outline-none border border-[var(--color-border)] focus:border-[var(--color-primary)] transition;
+  }
+}
