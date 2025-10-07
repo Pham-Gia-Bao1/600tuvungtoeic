@@ -4,7 +4,7 @@ export interface IconProps {
   /** The icon name (e.g., 'search', 'menu') or a custom ReactNode. */
   name?: string;
   /** Custom icon component if not using a predefined name. */
-  icon?: ReactNode | ComponentType<{ className?: string; size?: string | number; color?: string }>;
+  icon?: ReactNode | ComponentType<{ className?: string; size?: string | number; color?: string }> | React.ElementType;
   /** CSS class names for the icon SVG or element. */
   className?: string;
   /** Size of the icon (e.g., '16', '20', '24' for width/height in px). */

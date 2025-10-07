@@ -9,8 +9,9 @@ const getVariantClasses = (variant: ButtonProps['variant'] = 'primary', disabled
     secondary: 'bg-[var(--color-surface)] hover:bg-[var(--color-bg-light)] text-[var(--color-text-primary)] border border-[var(--color-border)]',
     outline: 'bg-transparent hover:bg-[var(--color-bg-light)] text-[var(--color-text-primary)] border border-[var(--color-border)]',
     ghost: 'bg-transparent hover:bg-[var(--color-bg-light)] text-[var(--color-text-primary)]',
-    destructive: 'bg-red-500 hover:bg-red-600 text-white border border-red-500',
+    destructive: 'bg-red-500 hover:bg-red-600 text-white  border-red-500',
     link: 'bg-transparent hover:underline text-[var(--color-primary)]',
+    light: 'bg-white hover:bg-gray-100 text-[var(--color-text-primary)] border border-gray-300',
   };
   return variants[variant] || variants.primary;
 };
@@ -51,7 +52,7 @@ export const Button: React.FC<ButtonProps> = ({
   const variantClasses = getVariantClasses(variant, disabled);
   const sizeClasses = getSizeClasses(size, square);
   const shapeClasses = getShapeClasses(shape);
-  const fullClasses = `inline-flex items-center justify-center font-medium focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2 disabled:focus:ring-0 transition-colors ${variantClasses} ${sizeClasses} ${shapeClasses} ${fullWidth ? 'w-full' : ''} ${className}`;
+  const fullClasses = `inline-flex cursor-pointer items-center justify-center font-medium focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2 disabled:focus:ring-0 transition-colors ${variantClasses} ${sizeClasses} ${shapeClasses} ${fullWidth ? 'w-full' : ''} ${className}`;
 
   const content = loading ? (
     <Spinner size={size === 'sm' ? 'sm' : size === 'lg' ? 'lg' : 'md'} />

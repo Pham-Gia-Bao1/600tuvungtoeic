@@ -4,6 +4,7 @@ import { useAuth } from "../contexts/AuthContext";
 
 export const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user } = useAuth();
+  console.log(user);
   if (!user) return <Navigate to="/" replace />;
   return <>{children}</>;
 };

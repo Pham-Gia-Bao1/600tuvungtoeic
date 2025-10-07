@@ -1,23 +1,21 @@
-/* styles/variables.css */
 :root {
-  /* Primary */
-  --color-primary: #4f46e5; /* xanh tím */
-  --color-primary-hover: #6366f1;
+  /* Primary brand color (Sky blue) */
+  --color-primary: #0ea5e9;          /* sky-500 */
+  --color-primary-hover: #0284c7;    /* sky-600 */
 
-  /* Background */
-  --color-bg-dark: #0f172a; /* nền chính */
-  --color-bg-light: #1e293b; /* phần sidebar/chat */
+  /* Backgrounds */
+  --color-bg-dark: #f8fafc;          /* light mode main bg (gray-50) */
+  --color-bg-light: #ffffff;         /* white surface */
 
-  /* Text */
-  --color-text-primary: #f8fafc;
-  --color-text-secondary: #94a3b8;
+  /* Text colors */
+  --color-text-secondary: #475569;   /* gray-600 */
 
   /* Accent & highlights */
-  --color-accent: #22d3ee; /* xanh dương nhạt */
-  --color-danger: #ef4444;
-  --color-success: #22c55e;
+  --color-accent: #38bdf8;           /* sky-400 */
+  --color-danger: #ef4444;           /* red-500 */
+  --color-success: #22c55e;          /* green-500 */
 
   /* Border & surface */
-  --color-surface: #1e293b;
-  --color-border: #334155;
+  --color-surface: #ffffff;          /* white card surface */
+  --color-border: #e2e8f0;           /* gray-200 */
 }
