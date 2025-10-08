@@ -1,5 +1,5 @@
+import { Button } from "@/components/common/Button/Button";
 import React, { useState } from "react";
-import { Button } from "../../../components/common/Button";
 
 export const LoginForm: React.FC<{ onSubmit: (name: string) => void }> = ({ onSubmit }) => {
   const [name, setName] = useState("");

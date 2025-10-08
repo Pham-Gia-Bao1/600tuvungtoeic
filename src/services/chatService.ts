@@ -13,7 +13,7 @@ export const sendMessage = async (chatId: string, text: string): Promise<Message
   // Mock delay to simulate API call
   await new Promise((resolve) => setTimeout(resolve, 300));
   const newMessage: Message = {
-    id: Date.now().toString(),
+    id: chatId + '-' + Date.now(), // Unique ID
     text,
     senderId: 'current',
     sender: {
