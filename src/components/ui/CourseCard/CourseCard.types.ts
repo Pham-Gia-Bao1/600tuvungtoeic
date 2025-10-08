@@ -1,5 +1,3 @@
-
-// CourseCard.types.ts
 import { CourseType } from "@/types/course";
 import { ReactNode, HTMLAttributes } from "react";
 
@@ -8,20 +6,43 @@ export interface CourseCardProps
     Omit<HTMLAttributes<HTMLDivElement>, "className" | "children" | "id" | "title"> {
   /** Custom action buttons under the card */
   actions?: ReactNode;
-  /** Callback when retry button is clicked */
-  onRetry?: () => void;
-  /** Callback when view answer button is clicked */
-  onViewAnswer?: () => void;
+
+  /** ID cho course card */
+  id: number | string;
+
+  /** Tiêu đề của course card */
+  title: string;
+
+  /** Callback khi bắt đầu khóa học */
+  onStart?: () => void;
+
+  /** Callback khi làm lại bài (retake) */
+  onRetake?: () => void;
+
+  /** Callback khi xem đáp án */
+  onViewAnswers?: () => void;
+
+  /** Text cho nút "Xem đáp án" */
+  viewAnswersText?: string;
+
+  /** Text cho nút "Làm bài" */
+  retakeText?: string;
+
   /** Custom class names */
   className?: string;
-  /** Children elements inside the card */
+
+  /** Nội dung con hiển thị trong card */
   children?: ReactNode;
-  /** Callback khi start course */
-  onStart?: () => void;
-  /** Title for the course card */
-  title: string;
-    /** ID for the course card */
-  onRetake?: () => void;
-  id: number | string;
-  onViewAnswers?: () => void;
+
+  /** Tùy biến phần header (thay vì title mặc định) */
+  headerContent?: ReactNode;
+
+  /** Tùy biến phần footer (thay vì 2 nút mặc định) */
+  footerContent?: ReactNode;
+
+  /** Nút trái tùy chỉnh (thay thế "Xem đáp án") */
+  leftButton?: ReactNode;
+
+  /** Nút phải tùy chỉnh (thay thế "Làm bài") */
+  rightButton?: ReactNode;
 }

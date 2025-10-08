@@ -8,6 +8,7 @@ export const menuItems: Array<{ path: string; label: string }> = [
   { path: "/test", label: "Thi thử" },
   { path: "/courses", label: "Kho đề thi" },
   { path: "/community", label: "Cộng đồng" },
+  { path: "/vocab", label: "600 từ TOEIC" },
 ];
 
 // src/utils/constants.ts
@@ -22,7 +23,6 @@ export const coursesData : CourseCardProps[] = [
     score: 850,
     isOfficial: false,
 
-    // ✅ props cho modal
     listeningTime: 45,
     readingTime: 75,
     totalTime: 120,

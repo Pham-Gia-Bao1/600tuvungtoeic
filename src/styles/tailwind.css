@@ -19,7 +19,46 @@
     background: var(--color-primary);
     color: white;
   }
+
+  /* ✅ Custom Scrollbar: Ẩn mặc định, hiện khi hover */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Firefox ẩn mặc định */
+    transition: scrollbar-color 0.3s ease;
+  }
+
+  /* Ẩn scrollbar mặc định (Chrome, Edge, Safari) */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 9999px;
+    transition: background 0.3s ease;
+  }
+
+  /* 🪄 Khi hover vùng cuộn */
+  *:hover::-webkit-scrollbar-thumb {
+    background: rgba(160, 160, 160, 0.4); /* xám nhẹ */
+  }
+
+  *:hover::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05); /* nền track nhạt */
+  }
+
+  /* Firefox hover (thủ công hơn chút) */
+  *:hover {
+    scrollbar-color: rgba(160,160,160,0.4) rgba(0,0,0,0.05);
+  }
 }
+
 
 @layer components {
   .btn-primary {

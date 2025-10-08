@@ -14,8 +14,11 @@ import {
   Headphones,
   Newspaper,
   Award,
+  Play,
+  Pause,
+  ArrowRight,
+  ArrowLeft,
 } from 'lucide-react';
-
 
 // Define Lucide-like props interface
 interface LucideIconProps extends LucideProps {
@@ -38,6 +41,10 @@ const ICON_MAP: Record<string, React.ComponentType<LucideIconProps>> = {
   headphones: Headphones,
   newspaper: Newspaper,
   award: Award,
+  play: Play,
+  pause: Pause,
+  next: ArrowLeft,
+  previous: ArrowRight,
 };
 
 // Fallback SVG for unknown icons
@@ -54,6 +61,8 @@ const FallbackIcon: React.FC<{ className?: string; size?: number; color?: string
     fill="none"
     stroke={color}
     strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
   >
     <circle cx="12" cy="12" r="10" />
   </svg>
@@ -65,15 +74,13 @@ export const Icon: React.FC<IconProps> = ({
   className = '',
   size = 20,
   color = 'currentColor',
-  variant = 'default',
+  variant = 'stroke', // default variant
   ...props
 }) => {
-  let IconComponent:
-    | React.ComponentType<LucideIconProps>
-    | React.FC<{ className?: string; style?: React.CSSProperties }>;
+  let IconComponent: React.ComponentType<LucideIconProps> | null = null;
 
   if (icon) {
-    // If passed a custom ReactNode or component
+    // Custom icon passed directly
     const CustomIcon = () =>
       React.cloneElement(icon as React.ReactElement, {
         className,
@@ -81,23 +88,22 @@ export const Icon: React.FC<IconProps> = ({
       });
     IconComponent = CustomIcon;
   } else if (name) {
-    // Lookup in ICON_MAP or fallback
-    IconComponent = (ICON_MAP[name] || FallbackIcon) as React.ComponentType<LucideIconProps>;
-  } else {
-    return null;
+    // Lookup icon from map or fallback
+    IconComponent = ICON_MAP[name] || FallbackIcon;
   }
 
-  // Variant support (filled vs stroke)
+  if (!IconComponent) return null;
+
+  // Variant props: Lucide icons handle fill/stroke automatically
   const variantProps =
     variant === 'filled'
-      ? { fill: color }
+      ? { fill: color, stroke: 'none' }
       : { stroke: color, fill: 'none' };
 
   return (
     <IconComponent
       className={className}
       size={size}
-      color={color}
       {...variantProps}
       {...props}
       aria-hidden="true"

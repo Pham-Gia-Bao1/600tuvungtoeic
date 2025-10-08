@@ -12,6 +12,10 @@ const getVariantClasses = (variant: ButtonProps['variant'] = 'primary', disabled
     destructive: 'bg-red-500 hover:bg-red-600 text-white  border-red-500',
     link: 'bg-transparent hover:underline text-[var(--color-primary)]',
     light: 'bg-white hover:bg-gray-100 text-[var(--color-text-primary)] border border-gray-300',
+    dark: 'bg-gray-800 hover:bg-gray-900 text-white border border-gray-800',
+    success: 'bg-green-600 hover:bg-green-700 text-white border border-green-600',
+    warning: 'bg-yellow-500 hover:bg-yellow-600 text-white border border-yellow-500',
+    info: 'bg-blue-600 hover:bg-blue-700 text-white border border-blue-600',
   };
   return variants[variant] || variants.primary;
 };

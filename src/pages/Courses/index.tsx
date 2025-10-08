@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import CourseCard from "@/components/ui/CourseCard/CourseCard";
-import StartTestModal from "@/features/engtest/components/StartTestModal/StartTestModal";
+import StartTestModal from "@/features/toeic/components/StartTestModal/StartTestModal";
 import { coursesData } from "@/utils/constants";
 import { CourseType } from "@/types/course";
 
@@ -35,6 +35,7 @@ const CoursesPage: React.FC = () => {
             <CourseCard
               key={index}
               {...course}
+              retakeText="Làm lại"
               onViewAnswers={() => alert(`Xem đáp án: ${course.title}`)}
               onRetake={() => handleRetake(course)}
             />

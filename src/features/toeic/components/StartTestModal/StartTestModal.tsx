@@ -16,9 +16,9 @@ const StartTestModal: React.FC<StartTestModalProps> = ({
 }) => {
   return (
     <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-      <h2 className="text-xl font-bold text-center mb-4">
+      <h2 className="text-xl  text-center mb-4 text-gray-600">
         Welcome, you are about to start the <br />
-        <span className="text-2xl">{title}</span>
+        <span className="text-2xl font-bold text-black">{title}</span>
       </h2>
 
       <div className="flex justify-around text-center mb-4">
@@ -41,17 +41,33 @@ const StartTestModal: React.FC<StartTestModalProps> = ({
         </div>
       </div>
 
-      <ul className="text-sm text-gray-600 space-y-1 mb-6">
+      <ul className="list-none text-sm text-gray-600 space-y-2 mb-6 leading-relaxed">
         {rules.length > 0 ? (
-          rules.map((rule, idx) => <li key={idx}>• {rule}</li>)
+          rules.map((rule, idx) => (
+            <li
+              key={idx}
+              className="bg-sky-50 border border-sky-100 rounded-lg px-3 py-2 text-gray-700 hover:bg-sky-100 transition-colors duration-200"
+            >
+              {rule}
+            </li>
+          ))
         ) : (
           <>
-            <li>• This test has two sections: reading and listening</li>
-            <li>• You will start with a 7.5-minute reading section</li>
-            <li>• Pace yourself to avoid running out of time</li>
-            <li>• No penalty for wrong answers</li>
-            <li>• Once you click “Next” you cannot go back</li>
-            <li>• Full-screen mode recommended</li>
+            {[
+              "This test has two sections: reading and listening",
+              "You will start with a 7.5-minute reading section",
+              "Pace yourself to avoid running out of time",
+              "No penalty for wrong answers",
+              "Once you click “Next” you cannot go back",
+              "Full-screen mode recommended",
+            ].map((rule, idx) => (
+              <li
+                key={idx}
+                className="bg-sky-50 border border-sky-100 rounded-lg px-3 py-2 text-gray-700 hover:bg-sky-100 transition-colors duration-200"
+              >
+                {rule}
+              </li>
+            ))}
           </>
         )}
       </ul>

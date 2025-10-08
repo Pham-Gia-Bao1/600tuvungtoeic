@@ -4,7 +4,7 @@ export interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement
   /** The button content (text, icon, or ReactNode). */
   children: ReactNode;
   /** Variant style ('primary', 'secondary', 'outline', 'ghost', 'destructive', 'link'). */
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'destructive' | 'link';
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'destructive' | 'link' | 'light' | 'dark' | 'success' | 'warning' | 'info';
   /** Size of the button ('sm', 'md', 'lg'). */
   size?: 'sm' | 'md' | 'lg';
   /** Whether the button is disabled. */
