@@ -1,4 +1,4 @@
-import { supabase } from "../../../lib/supabase";
+import { getSupabaseClient } from "../../../lib/supabase";
 import type { ExamMode } from "../../../types/toeic";
 import type { Question } from "../../../types/toeic";
 
@@ -51,6 +51,7 @@ export type ToeicExamAttempt = {
 
 export const toeicService = {
   fetchExams: async (): Promise<ToeicExam[]> => {
+    const supabase = getSupabaseClient();
     const { data, error } = await supabase
       .from("toeic_exams")
       .select("id, sort_order, duration_seconds, available, content")
@@ -60,6 +61,7 @@ export const toeicService = {
   },
 
   fetchExam: async (examId: string): Promise<{ exam: ToeicExam; questions: Question[] }> => {
+    const supabase = getSupabaseClient();
     const [{ data: examData, error: examError }, { data: questionData, error: questionError }] =
       await Promise.all([
         supabase
@@ -83,6 +85,7 @@ export const toeicService = {
   },
 
   saveAttempt: async (attempt: SaveExamAttempt): Promise<void> => {
+    const supabase = getSupabaseClient();
     const { error } = await supabase.from("toeic_exam_attempts").insert({
       user_id: attempt.userId,
       exam_id: attempt.examId,
@@ -98,6 +101,7 @@ export const toeicService = {
   },
 
   fetchAttempts: async (userId: string): Promise<ToeicExamAttempt[]> => {
+    const supabase = getSupabaseClient();
     const { data, error } = await supabase
       .from("toeic_exam_attempts")
       .select("id, exam_id, mode, correct_count, total_questions, duration_seconds, submitted_at")

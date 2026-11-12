@@ -1,4 +1,4 @@
-import { supabase } from "../../../lib/supabase";
+import { getSupabaseClient } from "../../../lib/supabase";
 import type { Lesson, VocabWord } from "../types/vocab.types";
 
 type VocabularyLessonRow = {
@@ -42,6 +42,7 @@ export type VocabularyProgressUpdate = {
 
 export const vocabService = {
   fetchLessons: async (): Promise<Lesson[]> => {
+    const supabase = getSupabaseClient();
     const [{ data: lessonData, error: lessonError }, { data: wordData, error: wordError }] =
       await Promise.all([
         supabase
@@ -80,6 +81,7 @@ export const vocabService = {
   },
 
   fetchProgress: async (userId: string): Promise<Map<string, VocabularyProgressRecord>> => {
+    const supabase = getSupabaseClient();
     const { data, error } = await supabase
       .from("vocabulary_progress")
       .select(
@@ -95,6 +97,7 @@ export const vocabService = {
   },
 
   saveProgress: async (progress: VocabularyProgressUpdate): Promise<void> => {
+    const supabase = getSupabaseClient();
     const { error } = await supabase
       .from("vocabulary_progress")
       .upsert(progress, { onConflict: "user_id,word_id" });
@@ -103,6 +106,7 @@ export const vocabService = {
   },
 
   recordReview: async (wordId: string, wasCorrect: boolean): Promise<void> => {
+    const supabase = getSupabaseClient();
     const { error } = await supabase.rpc("record_vocabulary_review", {
       p_word_id: wordId,
       p_was_correct: wasCorrect,

@@ -1,4 +1,4 @@
-import { supabase } from "../lib/supabase";
+import { getSupabaseClient } from "../lib/supabase";
 import type { CourseType } from "../types/course";
 
 type CourseRow = {
@@ -9,6 +9,7 @@ type CourseRow = {
 
 export const courseService = {
   fetchCourses: async (): Promise<CourseType[]> => {
+    const supabase = getSupabaseClient();
     const { data, error } = await supabase
       .from("courses")
       .select("id, sort_order, content")

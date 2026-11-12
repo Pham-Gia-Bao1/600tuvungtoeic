@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { authService } from "../services/authService";
-import { supabase } from "../lib/supabase";
+import { getSupabaseClient } from "../lib/supabase";
 import type {
   AuthError,
   AuthChangeEvent,
@@ -48,40 +48,51 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     let active = true;
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (_event: AuthChangeEvent, session: Session | null) => {
-      if (!active) return;
-      setUser(session?.user ? toUser(session.user) : null);
-      setLoading(false);
-      },
-    );
+    let unsubscribe: (() => void) | undefined;
 
-    supabase.auth.getSession().then(
-      (
-        { data, error }: {
-          data: { session: Session | null };
-          error: AuthError | null;
+    try {
+      const supabase = getSupabaseClient();
+      const { data: { subscription } } = supabase.auth.onAuthStateChange(
+        (_event: AuthChangeEvent, session: Session | null) => {
+          if (!active) return;
+          setUser(session?.user ? toUser(session.user) : null);
+          setLoading(false);
         },
-      ) => {
+      );
+      unsubscribe = () => subscription.unsubscribe();
+
+      void supabase.auth.getSession().then(
+        (
+          { data, error }: {
+            data: { session: Session | null };
+            error: AuthError | null;
+          },
+        ) => {
+          if (!active) return;
+          if (error) {
+            setInitializationError(error.message);
+          } else {
+            setUser(data.session?.user ? toUser(data.session.user) : null);
+          }
+          setLoading(false);
+        },
+      ).catch((error: unknown) => {
         if (!active) return;
-        if (error) {
-          setInitializationError(error.message);
-        } else {
-          setUser(data.session?.user ? toUser(data.session.user) : null);
-        }
+        setInitializationError(
+          error instanceof Error ? error.message : "Unable to restore your Google session.",
+        );
         setLoading(false);
-      },
-    ).catch((error: unknown) => {
-      if (!active) return;
+      });
+    } catch (error: unknown) {
       setInitializationError(
-        error instanceof Error ? error.message : "Unable to restore your Google session.",
+        error instanceof Error ? error.message : "Unable to initialize Supabase.",
       );
       setLoading(false);
-    });
+    }
 
     return () => {
       active = false;
-      subscription.unsubscribe();
+      unsubscribe?.();
     };
   }, []);
 
