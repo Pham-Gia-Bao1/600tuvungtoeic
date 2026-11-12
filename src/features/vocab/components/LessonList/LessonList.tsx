@@ -50,7 +50,7 @@ export const LessonList: React.FC<LessonListProps> = ({ lessons }) => {
       {/* LEFT: Main Lesson List */}
       <div className="lg:col-span-3">
         <h2 className="text-3xl font-bold mb-6 text-gray-800">
-          {lessons.length} Lessons for 600 Essential TOEIC Words
+          {lessons.length} Topics for 600 Essential TOEIC Words
         </h2>
 
         {/* Search & Filters */}

@@ -1,12 +1,16 @@
-// import { axiosClient } from "./axiosClient";
+import { supabase } from "../lib/supabase";
 
 export const authService = {
-  login: async (username: string) => {
-    // example: mock
-    return { id: "1", name: username };
-    // real: return (await axiosClient.post('/auth/login', { username })).data;
+  login: async (): Promise<void> => {
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: `${window.location.origin}/` },
+    });
+    if (error) throw error;
   },
-  logout: async () => {
-    return true;
-  }
+
+  logout: async (): Promise<void> => {
+    const { error } = await supabase.auth.signOut();
+    if (error) throw error;
+  },
 };

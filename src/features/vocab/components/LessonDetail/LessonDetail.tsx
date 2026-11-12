@@ -5,14 +5,27 @@ import { Icon } from "@/components/common/Icon/Icon";
 import { useVocab } from "../../hooks/useVocab";
 import { Lesson } from "../../types/vocab.types";
 import { WordDetail } from "./WordDetail";
+import { LessonExercisePanel } from "./LessonExercisePanel";
+import { LearningModePanel } from "../LearningModePanel";
+
+type LearningMode = "flashcards" | "quiz" | "listening" | "review" | "exercises";
 
 export const LessonDetail: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
   const [selectedWordIndex, setSelectedWordIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
+  const [meaningRevealed, setMeaningRevealed] = useState(false);
+  const [audioError, setAudioError] = useState("");
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const { toggleLearned } = useVocab();
+  const { toggleLearned, toggleFavorite, recordReview, dailyReviewWords, progressError } = useVocab();
+  const [mode, setMode] = useState<LearningMode>("flashcards");
 
   const selectedWord = lesson.words[selectedWordIndex];
+  const reviewWordIds = new Set(dailyReviewWords.map((word) => word.id));
+  const wordsForMode = mode === "review"
+    ? dailyReviewWords.filter((word) => lesson.words.some((lessonWord) => lessonWord.id === word.id))
+    : mode === "listening"
+      ? lesson.words.filter((word) => Boolean(word.audioSrc) && !word.audioSrc?.includes("example.com"))
+      : lesson.words;
 
   const handleSelectWord = (index: number) => {
     if (audioRef.current) {
@@ -20,18 +33,55 @@ export const LessonDetail: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
       audioRef.current.currentTime = 0;
     }
     setSelectedWordIndex(index);
+    setMeaningRevealed(false);
+    setAudioError("");
     setIsAutoPlaying(true);
   };
 
   useEffect(() => {
-    if (isAutoPlaying && audioRef.current) {
-      audioRef.current.play().catch(() => {});
-      setIsAutoPlaying(false);
+    if (!isAutoPlaying) return;
+    setIsAutoPlaying(false);
+    if (selectedWord?.audioSrc && audioRef.current) {
+      audioRef.current.play().catch(() => {
+        setAudioError("Audio playback failed. Check the word's audio source or try again.");
+      });
     }
-  }, [selectedWordIndex, isAutoPlaying]);
+  }, [selectedWordIndex, isAutoPlaying, selectedWord?.audioSrc]);
 
   const handleToggleLearned = (wordId: string) =>
     toggleLearned(lesson.id, wordId);
+  const handleToggleFavorite = (wordId: string) => toggleFavorite(wordId);
+
+  if (mode !== "flashcards") {
+    return (
+      <div className="min-h-screen bg-[var(--color-bg-light)] p-4 sm:p-6">
+        <div className="mx-auto mb-6 flex max-w-2xl flex-wrap gap-2">
+          {(["flashcards", "quiz", "listening", "review", "exercises"] as const).map((item) => (
+            <Button
+              key={item}
+              variant={mode === item ? "primary" : "outline"}
+              onClick={() => setMode(item)}
+            >
+              {item === "review" ? "Due review" : item[0].toUpperCase() + item.slice(1)}
+            </Button>
+          ))}
+        </div>
+        {progressError && <p className="mx-auto mb-4 max-w-2xl text-red-600" role="alert">{progressError}</p>}
+        {mode === "exercises" ? (
+          <LessonExercisePanel
+            exercises={lesson.exercises ?? []}
+            onAnswer={recordReview}
+          />
+        ) : (
+          <LearningModePanel
+            mode={mode}
+            words={wordsForMode}
+            onAnswer={recordReview}
+          />
+        )}
+      </div>
+    );
+  }
 
   return (
     <div
@@ -40,6 +90,19 @@ export const LessonDetail: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
         bg-[var(--color-bg-light)]
       "
     >
+      <div className="fixed right-3 top-28 z-20 flex max-w-[calc(100%-1.5rem)] flex-wrap gap-2 rounded-lg bg-white/95 p-2 shadow md:right-5">
+        {(["flashcards", "quiz", "listening", "review", "exercises"] as const).map((item) => (
+          <Button
+            key={item}
+            size="sm"
+            variant={mode === item ? "primary" : "outline"}
+            onClick={() => setMode(item)}
+          >
+            {item === "review" ? `Due (${reviewWordIds.size})` : item[0].toUpperCase() + item.slice(1)}
+          </Button>
+        ))}
+      </div>
+      {progressError && <p className="fixed bottom-4 left-4 z-30 rounded bg-white p-3 text-red-600 shadow" role="alert">{progressError}</p>}
       {/* LEFT: Word List */}
       <div
         className="
@@ -101,34 +164,49 @@ export const LessonDetail: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
             >
               {/* Audio Section */}
               <div className="flex flex-col items-center justify-center w-full">
-                <audio
-                  ref={audioRef}
-                  src={selectedWord.audioSrc}
-                  preload="auto"
-                  className="hidden"
-                />
+                {selectedWord.audioSrc && (
+                  <audio
+                    ref={audioRef}
+                    src={selectedWord.audioSrc}
+                    preload="none"
+                    className="hidden"
+                  />
+                )}
 
-                <div
+                <button
+                  type="button"
+                  aria-label={selectedWord.audioSrc ? `Play ${selectedWord.word} pronunciation` : "Audio unavailable"}
+                  disabled={!selectedWord.audioSrc}
                   onClick={() => {
-                    if (audioRef.current) {
-                      audioRef.current.pause();
-                      audioRef.current.currentTime = 0;
-                      audioRef.current.play().catch(() => {});
+                    if (!audioRef.current) {
+                      setAudioError("No pronunciation audio is available for this word.");
+                      return;
                     }
+                    audioRef.current.pause();
+                    audioRef.current.currentTime = 0;
+                    audioRef.current.play().catch(() => {
+                      setAudioError("Audio playback failed. Check the word's audio source or try again.");
+                    });
                   }}
                   className="
                     cursor-pointer w-28 h-28 sm:w-40 sm:h-40
                     bg-gray-200 rounded-full flex items-center justify-center
-                    hover:bg-gray-300 transition
+                    hover:bg-gray-300 transition disabled:cursor-not-allowed disabled:opacity-60
                   "
                 >
                   <Icon name="play" size={40} color="var(--color-primary)" />
-                </div>
+                </button>
+                {!selectedWord.audioSrc && (
+                  <p className="mt-2 text-sm text-gray-500">Audio unavailable for this word.</p>
+                )}
+                {audioError && <p className="mt-2 text-sm text-red-600" role="alert">{audioError}</p>}
 
                 <div className="mt-3 text-center">
-                  <span className="text-2xl sm:text-3xl italic font-mono text-gray-800">
-                    {selectedWord.phonetic}
-                  </span>
+                  {selectedWord.phonetic && (
+                    <span className="text-2xl sm:text-3xl italic font-mono text-gray-800">
+                      {selectedWord.phonetic}
+                    </span>
+                  )}
                 </div>
               </div>
 
@@ -156,6 +234,9 @@ export const LessonDetail: React.FC<{ lesson: Lesson }> = ({ lesson }) => {
             <WordDetail
               word={selectedWord}
               onToggleLearned={() => handleToggleLearned(selectedWord.id)}
+              onToggleFavorite={() => handleToggleFavorite(selectedWord.id)}
+              revealed={meaningRevealed}
+              onToggleReveal={() => setMeaningRevealed((revealed) => !revealed)}
             />
 
             {/* Navigation Buttons */}

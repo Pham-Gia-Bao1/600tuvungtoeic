@@ -1,17 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { Bell, Search } from "lucide-react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Button } from "@/components/common/Button/Button";
 import { menuItems } from "@/utils/constants";
-import { useAuth } from "@/contexts/AuthContext"; // 👈 import Auth
+import { useAuth } from "@/contexts/AuthContext";
 
 const NavbarDesktop: React.FC = () => {
-  const { user, login, logout } = useAuth(); // 👈 lấy user từ context
+  const { user, logout } = useAuth();
+  const [logoutError, setLogoutError] = useState("");
+
+  const handleLogout = async () => {
+    setLogoutError("");
+    try {
+      await logout();
+    } catch (error: unknown) {
+      setLogoutError(error instanceof Error ? error.message : "Unable to log out.");
+    }
+  };
 
   return (
     <div className="hidden md:flex h-16 w-full items-center justify-between">
       {/* Logo */}
-      <Link to={menuItems[0].path} className="text-xl font-semibold text-sky-600">
+      <Link href={menuItems[0].path} className="text-xl font-semibold text-sky-600">
         Toeic <span className="text-black">Mastery</span>
       </Link>
 
@@ -30,7 +40,7 @@ const NavbarDesktop: React.FC = () => {
       {/* Menu */}
       <nav className="flex items-center space-x-6 text-sm font-medium text-gray-700">
         {menuItems.slice(1, menuItems.length).map((item, idx) => (
-          <Link key={idx} to={item.path} className="hover:text-sky-600">
+          <Link key={idx} href={item.path} className="hover:text-sky-600">
             {item.label}
           </Link>
         ))}
@@ -43,44 +53,38 @@ const NavbarDesktop: React.FC = () => {
           </button>
         )}
 
-        {/* Profile or Login/Register */}
+        {/* Profile or Google login */}
         <div className="flex items-center space-x-4">
           {user ? (
             <div className="flex items-center space-x-2">
-              <img
-                src="/images/on-luyen-tieng-anh-avata.jpg"
-                alt="avatar"
-                className="h-8 w-8 rounded-full object-cover"
-              />
-              <div className="text-sm">
+              <Link href="/profile" className="flex items-center space-x-2 rounded-md hover:text-sky-600" aria-label="My Profile">
+                <img
+                  src={user.avatarUrl ?? "/images/on-luyen-tieng-anh-avata.jpg"}
+                  alt=""
+                  className="h-8 w-8 rounded-full object-cover"
+                />
+                <div className="text-sm">
                 <p className="font-medium">{user.name}</p>
-                <p className="text-xs text-gray-500">Ranking member</p>
-              </div>
+                  <p className="text-xs text-gray-500">My Profile</p>
+                </div>
+              </Link>
               <Button
                 variant="destructive"
-                onClick={logout}
+                onClick={() => void handleLogout()}
               >
                 Logout
               </Button>
             </div>
           ) : (
-            <div className="flex space-x-3">
-              <Button
-                variant="primary"
-                onClick={() => login("Gia Bao")}
-              >
-                Login
-              </Button>
-              <Link
-                to="/register"
-
-              >
-                <Button variant="outline">Register</Button>
+            <div className="flex">
+              <Link href="/login">
+                <Button variant="primary">Login with Google</Button>
               </Link>
             </div>
           )}
         </div>
       </nav>
+      {logoutError && <p className="text-sm text-red-600" role="alert">{logoutError}</p>}
     </div>
   );
 };

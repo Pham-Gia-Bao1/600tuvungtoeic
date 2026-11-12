@@ -1,0 +1,2995 @@
+{
+  "lessons": [
+    {
+      "id": "lesson1",
+      "sort_order": 1,
+      "title": "Business & Office",
+      "category": "Business",
+      "description": "Core vocabulary for office operations, documents, facilities, and everyday workplace administration.",
+      "tip": "Listen for who is responsible, what document is involved, and any deadline or location mentioned.",
+      "words": [
+        {
+          "word": "appointment",
+          "familyWords": [
+            "appoint"
+          ],
+          "phonetic": "",
+          "meaning": "an arrangement to meet someone at a particular time",
+          "vietnameseMeaning": "cuộc hẹn",
+          "example": "Mina moved her appointment with the regional director to Thursday afternoon.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "schedule an appointment",
+            "confirm an appointment"
+          ],
+          "frequencyRank": 1,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "branch",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a local office or part of a larger organization",
+          "vietnameseMeaning": "chi nhánh",
+          "example": "The bank's downtown branch will extend its opening hours during tax season.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "branch office",
+            "open a branch"
+          ],
+          "frequencyRank": 2,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "correspondence",
+          "familyWords": [
+            "correspond"
+          ],
+          "phonetic": "",
+          "meaning": "letters and other written communication exchanged by people or organizations",
+          "vietnameseMeaning": "thư từ; thư tín",
+          "example": "Please forward all client correspondence to the new account manager.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "business correspondence",
+            "handle correspondence"
+          ],
+          "frequencyRank": 3,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "department",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a division of an organization responsible for a particular area of work",
+          "vietnameseMeaning": "phòng ban",
+          "example": "The purchasing department approved the replacement chairs.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "sales department",
+            "department head"
+          ],
+          "frequencyRank": 4,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "directory",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a list of names, contact details, or other organized information",
+          "vietnameseMeaning": "danh bạ; mục lục",
+          "example": "The updated staff directory includes each employee's extension number.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "staff directory",
+            "online directory"
+          ],
+          "frequencyRank": 5,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "equipment",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the tools or machines needed for a particular activity",
+          "vietnameseMeaning": "thiết bị",
+          "example": "Technicians will inspect the conference-room equipment before the client visit.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "office equipment",
+            "install equipment"
+          ],
+          "frequencyRank": 6,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "facility",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a building or place provided for a particular purpose",
+          "vietnameseMeaning": "cơ sở; tiện nghi",
+          "example": "The training facility is a short walk from the central office.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "research facility",
+            "facility manager"
+          ],
+          "frequencyRank": 7,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "file",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a collection of documents stored together; also, to put documents in an organized place",
+          "vietnameseMeaning": "hồ sơ; nộp, lưu hồ sơ",
+          "example": "Please file the signed delivery receipt under the supplier's name.",
+          "partOfSpeech": "noun",
+          "tip": "As a verb, file a document; as a noun, a file stores documents.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "personnel file",
+            "file a report"
+          ],
+          "frequencyRank": 8,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "form",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a printed or digital document with spaces to complete",
+          "vietnameseMeaning": "biểu mẫu",
+          "example": "New hires must complete the tax form before their first day.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "application form",
+            "fill out a form"
+          ],
+          "frequencyRank": 9,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "headquarters",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the main office from which an organization is managed",
+          "vietnameseMeaning": "trụ sở chính",
+          "example": "The product team at headquarters will review the regional sales figures.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "company headquarters",
+            "headquarters staff"
+          ],
+          "frequencyRank": 10,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "cubicle",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a small partitioned area in an office where one person works",
+          "vietnameseMeaning": "bu?ng l?m vi?c nh? trong v?n ph?ng",
+          "example": "The new analyst moved her files into a cubicle beside the customer support team.",
+          "partOfSpeech": "noun",
+          "tip": "A cubicle is an individual workspace separated by low partitions.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "office cubicle",
+            "cubicle partition"
+          ],
+          "frequencyRank": 11,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "mailroom",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an office area where incoming and outgoing mail is handled",
+          "vietnameseMeaning": "phòng thư tín",
+          "example": "Packages for the legal team are waiting in the mailroom.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "mailroom staff",
+            "mailroom clerk"
+          ],
+          "frequencyRank": 12,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "memo",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a short written message used for communication within an organization",
+          "vietnameseMeaning": "bản ghi nhớ",
+          "example": "A memo from facilities announced that the elevators will be serviced tonight.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "send a memo",
+            "internal memo"
+          ],
+          "frequencyRank": 13,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "operation",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an organized activity or the way a business or system functions",
+          "vietnameseMeaning": "hoạt động; công việc vận hành",
+          "example": "The warehouse operation runs on a reduced schedule during the holiday weekend.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "daily operations",
+            "business operation"
+          ],
+          "frequencyRank": 14,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "personnel",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the people who work for an organization",
+          "vietnameseMeaning": "nhân sự; nhân viên",
+          "example": "Only authorized personnel may enter the records room.",
+          "partOfSpeech": "noun",
+          "tip": "Usually an uncountable noun referring to staff collectively.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "personnel department",
+            "personnel records"
+          ],
+          "frequencyRank": 15,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "policy",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an official rule or principle that guides decisions and actions",
+          "vietnameseMeaning": "chính sách",
+          "example": "Company policy requires receipts for every travel expense.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "company policy",
+            "refund policy"
+          ],
+          "frequencyRank": 16,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "procedure",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an established way of carrying out a task",
+          "vietnameseMeaning": "quy trình; thủ tục",
+          "example": "Follow the safety procedure before using the document shredder.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "standard procedure",
+            "follow a procedure"
+          ],
+          "frequencyRank": 17,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "reception",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the area or desk where visitors are welcomed in an office",
+          "vietnameseMeaning": "quầy lễ tân; khu vực tiếp đón",
+          "example": "Leave the signed contract at reception for Ms. Park to collect.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "at reception",
+            "reception desk"
+          ],
+          "frequencyRank": 18,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "receptionist",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who welcomes visitors and answers calls at an office",
+          "vietnameseMeaning": "nhân viên lễ tân",
+          "example": "The receptionist called upstairs to let us know the courier had arrived.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "office receptionist",
+            "friendly receptionist"
+          ],
+          "frequencyRank": 19,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "record",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "stored information about an event, person, or business activity",
+          "vietnameseMeaning": "hồ sơ; bản ghi",
+          "example": "The accountant kept a record of every equipment purchase.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "keep a record",
+            "business records"
+          ],
+          "frequencyRank": 20,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "supplies",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "materials regularly needed for work",
+          "vietnameseMeaning": "vật tư; đồ dùng",
+          "example": "Order office supplies before the monthly budget closes.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "office supplies",
+            "medical supplies"
+          ],
+          "frequencyRank": 21,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "supervisor",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who oversees the work of others",
+          "vietnameseMeaning": "người giám sát; quản lý trực tiếp",
+          "example": "Ask your supervisor to approve the revised shift schedule.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "direct supervisor",
+            "supervisor approval"
+          ],
+          "frequencyRank": 22,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "filing cabinet",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a cabinet with drawers for storing organized documents and records",
+          "vietnameseMeaning": "t? h? s?",
+          "example": "Facilities placed a lockable filing cabinet near the payroll desks for confidential forms.",
+          "partOfSpeech": "phrase",
+          "tip": "Filing cabinets are commonly used to organize paper office records.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "lockable filing cabinet",
+            "metal filing cabinet"
+          ],
+          "frequencyRank": 23,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "stationery",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "writing materials such as paper, envelopes, and pens",
+          "vietnameseMeaning": "văn phòng phẩm",
+          "example": "The design team ordered letterhead stationery for the new office.",
+          "partOfSpeech": "noun",
+          "tip": "Stationery means writing materials; stationary means not moving.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "office stationery",
+            "personalized stationery"
+          ],
+          "frequencyRank": 24,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "distribute",
+          "familyWords": [
+            "distribution",
+            "distributor"
+          ],
+          "phonetic": "",
+          "meaning": "to give or deliver something to several people or places",
+          "vietnameseMeaning": "phân phát; phân phối",
+          "example": "The assistant will distribute the updated safety guide to every department.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "distribute materials",
+            "distribute a report"
+          ],
+          "frequencyRank": 25,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "maintain",
+          "familyWords": [
+            "maintenance"
+          ],
+          "phonetic": "",
+          "meaning": "to keep something in good condition or at the same level",
+          "vietnameseMeaning": "duy trì; bảo dưỡng",
+          "example": "Building staff maintain the heating system throughout the winter.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "maintain equipment",
+            "maintain records"
+          ],
+          "frequencyRank": 26,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "schedule",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "to plan a time for an event or task",
+          "vietnameseMeaning": "lên lịch",
+          "example": "We scheduled the network upgrade for after business hours.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "schedule a meeting",
+            "schedule an inspection"
+          ],
+          "frequencyRank": 27,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "submit",
+          "familyWords": [
+            "submission"
+          ],
+          "phonetic": "",
+          "meaning": "to present something for consideration, approval, or processing",
+          "vietnameseMeaning": "nộp; trình",
+          "example": "Please submit your mileage claim by the end of the month.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "submit an application",
+            "submit a report"
+          ],
+          "frequencyRank": 28,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "confidential",
+          "familyWords": [
+            "confidentiality"
+          ],
+          "phonetic": "",
+          "meaning": "intended to be kept private or secret",
+          "vietnameseMeaning": "bảo mật; bí mật",
+          "example": "The confidential personnel files are stored in a locked cabinet.",
+          "partOfSpeech": "adjective",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "confidential information",
+            "strictly confidential"
+          ],
+          "frequencyRank": 29,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "efficient",
+          "familyWords": [
+            "efficiency",
+            "efficiently"
+          ],
+          "phonetic": "",
+          "meaning": "working well without wasting time, effort, or resources",
+          "vietnameseMeaning": "hiệu quả",
+          "example": "A shared booking calendar made the equipment checkout process more efficient.",
+          "partOfSpeech": "adjective",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "efficient system",
+            "highly efficient"
+          ],
+          "frequencyRank": 30,
+          "difficultyLevel": "easy"
+        }
+      ]
+    },
+    {
+      "id": "lesson2",
+      "sort_order": 2,
+      "title": "Meetings & Conferences",
+      "category": "Business",
+      "description": "Words for planning meetings, exchanging ideas, presenting proposals, and recording decisions.",
+      "tip": "Meeting questions often test sequence: an item is proposed, discussed, decided, and recorded.",
+      "words": [
+        {
+          "word": "agenda",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a list of topics to be discussed at a meeting",
+          "vietnameseMeaning": "chương trình nghị sự",
+          "example": "The chair circulated the agenda so members could prepare questions in advance.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "meeting agenda",
+            "set the agenda"
+          ],
+          "frequencyRank": 31,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "adjourn",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "to end a meeting or formal session",
+          "vietnameseMeaning": "kết thúc; hoãn phiên họp",
+          "example": "The committee agreed to adjourn until the revised figures were available.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "adjourn a meeting",
+            "adjourn until Monday"
+          ],
+          "frequencyRank": 32,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "attendee",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who is present at an event or meeting",
+          "vietnameseMeaning": "người tham dự",
+          "example": "Each attendee received a name badge at the registration desk.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "conference attendee",
+            "registered attendee"
+          ],
+          "frequencyRank": 33,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "briefing",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a short meeting or report that gives essential information",
+          "vietnameseMeaning": "buổi họp thông tin; bản tóm lược",
+          "example": "The project lead held a morning briefing on the construction timetable.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "staff briefing",
+            "press briefing"
+          ],
+          "frequencyRank": 34,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "conference",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a formal meeting, often involving people from different organizations",
+          "vietnameseMeaning": "hội nghị",
+          "example": "The annual conference will bring suppliers together with retail managers.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "attend a conference",
+            "conference center"
+          ],
+          "frequencyRank": 35,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "consensus",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "general agreement reached by a group",
+          "vietnameseMeaning": "sự đồng thuận",
+          "example": "After reviewing the options, the panel reached a consensus on the launch date.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "reach a consensus",
+            "broad consensus"
+          ],
+          "frequencyRank": 36,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "contribute",
+          "familyWords": [
+            "contribution"
+          ],
+          "phonetic": "",
+          "meaning": "to give ideas, effort, or resources to a shared activity",
+          "vietnameseMeaning": "đóng góp",
+          "example": "Several engineers contributed practical suggestions during the design review.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "contribute an idea",
+            "contribute to a discussion"
+          ],
+          "frequencyRank": 37,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "debate",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a formal discussion in which different opinions are presented",
+          "vietnameseMeaning": "cuộc tranh luận",
+          "example": "The budget debate continued after the finance director joined the call.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "hold a debate",
+            "lively debate"
+          ],
+          "frequencyRank": 38,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "delegate",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person chosen to represent others at a meeting or event",
+          "vietnameseMeaning": "đại biểu; người được ủy quyền",
+          "example": "Each regional delegate reported on local customer demand.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "conference delegate",
+            "delegates from"
+          ],
+          "frequencyRank": 39,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "discussion",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a conversation in which people consider a subject together",
+          "vietnameseMeaning": "cuộc thảo luận",
+          "example": "The discussion of delivery delays will begin after the safety update.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "group discussion",
+            "lead a discussion"
+          ],
+          "frequencyRank": 40,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "facilitator",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who helps a group work or communicate effectively",
+          "vietnameseMeaning": "người điều phối",
+          "example": "An outside facilitator helped the two teams agree on priorities.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "meeting facilitator",
+            "trained facilitator"
+          ],
+          "frequencyRank": 41,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "handout",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a document given to people at a meeting or class",
+          "vietnameseMeaning": "tài liệu phát tay",
+          "example": "The presenter added the revised figures to the handout before printing it.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "meeting handout",
+            "distribute a handout"
+          ],
+          "frequencyRank": 42,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "keynote",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the main speech at a conference, setting its central theme",
+          "vietnameseMeaning": "bài phát biểu chủ đề",
+          "example": "A logistics expert will deliver the keynote on sustainable shipping.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "keynote address",
+            "keynote speaker"
+          ],
+          "frequencyRank": 43,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "minutes",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the official written record of what was discussed and decided at a meeting",
+          "vietnameseMeaning": "biên bản cuộc họp",
+          "example": "Jordan emailed the minutes to all committee members after lunch.",
+          "partOfSpeech": "noun",
+          "tip": "Meeting minutes are notes; minute as an adjective can mean very small.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "take minutes",
+            "meeting minutes"
+          ],
+          "frequencyRank": 44,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "moderator",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who guides a discussion and ensures fair participation",
+          "vietnameseMeaning": "người điều phối thảo luận",
+          "example": "The moderator invited questions from the audience after each panelist spoke.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "panel moderator",
+            "moderate a discussion"
+          ],
+          "frequencyRank": 45,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "participate",
+          "familyWords": [
+            "participant",
+            "participation"
+          ],
+          "phonetic": "",
+          "meaning": "to take part in an activity or discussion",
+          "vietnameseMeaning": "tham gia",
+          "example": "Employees from both offices can participate in the remote workshop.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "participate in a meeting",
+            "actively participate"
+          ],
+          "frequencyRank": 46,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "postpone",
+          "familyWords": [
+            "postponement"
+          ],
+          "phonetic": "",
+          "meaning": "to arrange for an event to happen at a later time",
+          "vietnameseMeaning": "hoãn lại",
+          "example": "Because the speaker's flight was delayed, organizers postponed the opening session.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "postpone a meeting",
+            "postpone until Friday"
+          ],
+          "frequencyRank": 47,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "presentation",
+          "familyWords": [
+            "present"
+          ],
+          "phonetic": "",
+          "meaning": "a talk in which information is given to an audience",
+          "vietnameseMeaning": "bài thuyết trình",
+          "example": "Her presentation compared customer retention across three regions.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "give a presentation",
+            "presentation slides"
+          ],
+          "frequencyRank": 48,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "proposal",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a formal suggestion or plan put forward for consideration",
+          "vietnameseMeaning": "đề xuất; bản đề xuất",
+          "example": "The board requested a cost estimate before reviewing the proposal.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "submit a proposal",
+            "business proposal"
+          ],
+          "frequencyRank": 49,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "recommend",
+          "familyWords": [
+            "recommendation"
+          ],
+          "phonetic": "",
+          "meaning": "to advise that someone or something should be chosen or done",
+          "vietnameseMeaning": "đề xuất; khuyến nghị",
+          "example": "The consultant recommended extending the pilot program by two weeks.",
+          "partOfSpeech": "verb",
+          "tip": "Use recommend + noun, recommend + -ing, or recommend that + clause.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "recommend a solution",
+            "recommend that"
+          ],
+          "frequencyRank": 50,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "reschedule",
+          "familyWords": [
+            "schedule"
+          ],
+          "phonetic": "",
+          "meaning": "to arrange an event for a different time",
+          "vietnameseMeaning": "đổi lịch",
+          "example": "Could we reschedule the supplier call for Wednesday morning?",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "reschedule an appointment",
+            "reschedule a meeting"
+          ],
+          "frequencyRank": 51,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "session",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a period devoted to a particular activity at an event",
+          "vietnameseMeaning": "buổi; phiên",
+          "example": "The afternoon session focuses on data security for small businesses.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "training session",
+            "attend a session"
+          ],
+          "frequencyRank": 52,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "speaker",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who gives a speech or presentation",
+          "vietnameseMeaning": "diễn giả; người phát biểu",
+          "example": "The guest speaker shared lessons from the company's overseas expansion.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "guest speaker",
+            "invited speaker"
+          ],
+          "frequencyRank": 53,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "summarize",
+          "familyWords": [
+            "summary"
+          ],
+          "phonetic": "",
+          "meaning": "to express the main points of something briefly",
+          "vietnameseMeaning": "tóm tắt",
+          "example": "Before closing, the chair summarized the decisions and assigned follow-up tasks.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "summarize a report",
+            "briefly summarize"
+          ],
+          "frequencyRank": 54,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "venue",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the place where an event or meeting is held",
+          "vietnameseMeaning": "địa điểm tổ chức",
+          "example": "The hotel was selected as the venue for the distributor conference.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "conference venue",
+            "choose a venue"
+          ],
+          "frequencyRank": 55,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "clarify",
+          "familyWords": [
+            "clarification"
+          ],
+          "phonetic": "",
+          "meaning": "to make information or meaning easier to understand",
+          "vietnameseMeaning": "làm rõ",
+          "example": "The analyst clarified which figures included the overseas branches.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "clarify a point",
+            "clarify the requirements"
+          ],
+          "frequencyRank": 56,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "convene",
+          "familyWords": [
+            "convention"
+          ],
+          "phonetic": "",
+          "meaning": "to bring people together for a meeting",
+          "vietnameseMeaning": "triệu tập; họp",
+          "example": "The safety committee will convene on the first Tuesday of each month.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "convene a meeting",
+            "committee convenes"
+          ],
+          "frequencyRank": 57,
+          "difficultyLevel": "hard"
+        },
+        {
+          "word": "demonstrate",
+          "familyWords": [
+            "demonstration"
+          ],
+          "phonetic": "",
+          "meaning": "to show how something works or to explain it with examples",
+          "vietnameseMeaning": "trình bày; minh họa",
+          "example": "A technician demonstrated the new video system before the conference began.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "demonstrate a product",
+            "demonstrate how"
+          ],
+          "frequencyRank": 58,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "interrupt",
+          "familyWords": [
+            "interruption"
+          ],
+          "phonetic": "",
+          "meaning": "to stop someone while they are speaking or doing something",
+          "vietnameseMeaning": "ngắt lời; làm gián đoạn",
+          "example": "Please wait until the question period so you do not interrupt the presenter.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "interrupt a speaker",
+            "interrupt a meeting"
+          ],
+          "frequencyRank": 59,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "vote",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "to make a formal choice by recording one's preference",
+          "vietnameseMeaning": "bỏ phiếu",
+          "example": "Members will vote on the revised travel policy at the next meeting.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "vote on a proposal",
+            "vote by a show of hands"
+          ],
+          "frequencyRank": 60,
+          "difficultyLevel": "easy"
+        }
+      ]
+    },
+    {
+      "id": "lesson3",
+      "sort_order": 3,
+      "title": "Recruitment & Employment",
+      "category": "Employment",
+      "description": "Vocabulary for job applications, hiring decisions, workplace benefits, and career changes.",
+      "tip": "Distinguish the people (applicant, candidate, employer) from the documents and stages of hiring.",
+      "words": [
+        {
+          "word": "applicant",
+          "familyWords": [
+            "apply",
+            "application"
+          ],
+          "phonetic": "",
+          "meaning": "a person who formally asks to be considered for a job or opportunity",
+          "vietnameseMeaning": "ứng viên; người nộp đơn",
+          "example": "Every applicant must provide two professional references.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "job applicant",
+            "successful applicant"
+          ],
+          "frequencyRank": 61,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "application",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a formal request for a job, place, or service",
+          "vietnameseMeaning": "đơn xin; hồ sơ đăng ký",
+          "example": "The online application asks candidates to list their recent work experience.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "job application",
+            "submit an application"
+          ],
+          "frequencyRank": 62,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "candidate",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person being considered for a position or award",
+          "vietnameseMeaning": "ứng viên",
+          "example": "The hiring panel invited its final candidate to meet the department head.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "qualified candidate",
+            "candidate for a position"
+          ],
+          "frequencyRank": 63,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "career",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person's work or professional life over time",
+          "vietnameseMeaning": "sự nghiệp",
+          "example": "A mentoring program helped new analysts plan their careers.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "career opportunity",
+            "career development"
+          ],
+          "frequencyRank": 64,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "compensation",
+          "familyWords": [
+            "compensate"
+          ],
+          "phonetic": "",
+          "meaning": "pay and other benefits received for work",
+          "vietnameseMeaning": "thù lao; chế độ đãi ngộ",
+          "example": "The compensation package includes health coverage and an annual bonus.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "compensation package",
+            "employee compensation"
+          ],
+          "frequencyRank": 65,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "curriculum vitae",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a document outlining a person's education, qualifications, and work history",
+          "vietnameseMeaning": "sơ yếu lý lịch; hồ sơ nghề nghiệp",
+          "example": "Please attach your curriculum vitae when replying to the research assistant posting.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "submit a curriculum vitae",
+            "curriculum vitae (CV)"
+          ],
+          "frequencyRank": 66,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "employee",
+          "familyWords": [
+            "employ"
+          ],
+          "phonetic": "",
+          "meaning": "a person who is paid to work for an organization",
+          "vietnameseMeaning": "nhân viên",
+          "example": "Each employee can choose a benefits plan during the enrollment period.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "full-time employee",
+            "employee handbook"
+          ],
+          "frequencyRank": 67,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "employer",
+          "familyWords": [
+            "employ"
+          ],
+          "phonetic": "",
+          "meaning": "a person or organization that hires and pays workers",
+          "vietnameseMeaning": "người sử dụng lao động; nhà tuyển dụng",
+          "example": "The employer will reimburse relocation costs after the new manager starts.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "prospective employer",
+            "employer contribution"
+          ],
+          "frequencyRank": 68,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "employment",
+          "familyWords": [
+            "employ"
+          ],
+          "phonetic": "",
+          "meaning": "the state of having paid work",
+          "vietnameseMeaning": "việc làm; sự tuyển dụng",
+          "example": "The agency provides employment services to recent graduates.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "employment contract",
+            "employment history"
+          ],
+          "frequencyRank": 69,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "interview",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a formal conversation used to assess a job candidate",
+          "vietnameseMeaning": "buổi phỏng vấn",
+          "example": "The second interview will include a short presentation to the sales team.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "job interview",
+            "conduct an interview"
+          ],
+          "frequencyRank": 70,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "job opening",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an available position that an employer is seeking to fill",
+          "vietnameseMeaning": "vị trí tuyển dụng",
+          "example": "A job opening for a bilingual receptionist was posted on the company website.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "current job opening",
+            "apply for a job opening"
+          ],
+          "frequencyRank": 71,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "qualification",
+          "familyWords": [
+            "qualify",
+            "qualified"
+          ],
+          "phonetic": "",
+          "meaning": "a skill, experience, or credential that makes someone suitable for a role",
+          "vietnameseMeaning": "trình độ; điều kiện chuyên môn",
+          "example": "Fluency in German is a required qualification for the regional sales role.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "required qualification",
+            "professional qualification"
+          ],
+          "frequencyRank": 72,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "recruit",
+          "familyWords": [
+            "recruitment",
+            "recruiter"
+          ],
+          "phonetic": "",
+          "meaning": "to find and attract people to work for an organization",
+          "vietnameseMeaning": "tuyển dụng",
+          "example": "The firm plans to recruit three designers before the new product launch.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "recruit staff",
+            "recruit candidates"
+          ],
+          "frequencyRank": 73,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "recruitment",
+          "familyWords": [
+            "recruit"
+          ],
+          "phonetic": "",
+          "meaning": "the process of finding and hiring new employees",
+          "vietnameseMeaning": "việc tuyển dụng; quy trình tuyển dụng",
+          "example": "Recruitment for seasonal warehouse positions begins in September.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "recruitment process",
+            "recruitment agency"
+          ],
+          "frequencyRank": 74,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "reference",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who can describe someone's character or work; a statement about them",
+          "vietnameseMeaning": "người tham chiếu; thư giới thiệu",
+          "example": "The employer contacted her former supervisor for a reference.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "professional reference",
+            "check references"
+          ],
+          "frequencyRank": 75,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "résumé",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a brief document describing a person's work experience and qualifications",
+          "vietnameseMeaning": "sơ yếu lý lịch; hồ sơ xin việc",
+          "example": "He revised his résumé to highlight his experience managing client accounts.",
+          "partOfSpeech": "noun",
+          "tip": "A résumé is a job-history document; resume as a verb means continue.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "update a résumé",
+            "résumé screening"
+          ],
+          "frequencyRank": 76,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "salary",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "fixed regular pay, usually stated as an annual amount",
+          "vietnameseMeaning": "tiền lương; lương tháng/năm",
+          "example": "The advertised salary depends on the successful candidate's experience.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "annual salary",
+            "salary range"
+          ],
+          "frequencyRank": 77,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "shortlist",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a final, reduced list of people being considered for a position",
+          "vietnameseMeaning": "danh sách rút gọn",
+          "example": "Three applicants made the shortlist for the operations director role.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "draw up a shortlist",
+            "shortlist of candidates"
+          ],
+          "frequencyRank": 78,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "skill",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an ability developed through training or experience",
+          "vietnameseMeaning": "kỹ năng",
+          "example": "The position requires strong customer-service skills and accurate data entry.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "communication skills",
+            "develop a skill"
+          ],
+          "frequencyRank": 79,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "staff",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the people who work for an organization",
+          "vietnameseMeaning": "nhân viên; đội ngũ nhân sự",
+          "example": "The hotel added temporary staff to handle the summer increase in bookings.",
+          "partOfSpeech": "noun",
+          "tip": "Staff can refer to a group collectively or to individual staff members.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "staff training",
+            "staff member"
+          ],
+          "frequencyRank": 80,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "temporary",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "lasting for a limited time rather than permanently",
+          "vietnameseMeaning": "tạm thời",
+          "example": "A temporary assistant will cover the reception desk during the renovation.",
+          "partOfSpeech": "adjective",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "temporary position",
+            "temporary employee"
+          ],
+          "frequencyRank": 81,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "vacancy",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an unoccupied position that is available to be filled",
+          "vietnameseMeaning": "vị trí còn trống",
+          "example": "The company has a vacancy in its customer support department.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "job vacancy",
+            "fill a vacancy"
+          ],
+          "frequencyRank": 82,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "background check",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a review of a person's identity, history, or records",
+          "vietnameseMeaning": "việc kiểm tra lý lịch",
+          "example": "The final hiring stage includes a background check with the applicant's consent.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "conduct a background check",
+            "pass a background check"
+          ],
+          "frequencyRank": 83,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "benefits",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "non-wage advantages provided by an employer, such as insurance or leave",
+          "vietnameseMeaning": "phúc lợi",
+          "example": "Dental coverage is one of the benefits available to permanent employees.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "employee benefits",
+            "benefits package"
+          ],
+          "frequencyRank": 84,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "hire",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "to employ someone for a job",
+          "vietnameseMeaning": "thuê; tuyển dụng",
+          "example": "The studio hopes to hire a production coordinator by the end of the quarter.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "hire an employee",
+            "hire for a position"
+          ],
+          "frequencyRank": 85,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "onboarding",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the process of introducing a new employee to a job and organization",
+          "vietnameseMeaning": "quy trình hội nhập nhân viên mới",
+          "example": "Onboarding includes security training and an introduction to the product team.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "employee onboarding",
+            "onboarding process"
+          ],
+          "frequencyRank": 86,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "probation",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a trial period at the start of employment during which suitability is assessed",
+          "vietnameseMeaning": "thời gian thử việc",
+          "example": "New technicians complete a three-month probation before receiving a permanent contract.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "probation period",
+            "pass probation"
+          ],
+          "frequencyRank": 87,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "promotion",
+          "familyWords": [
+            "promote"
+          ],
+          "phonetic": "",
+          "meaning": "advancement to a higher position or rank at work",
+          "vietnameseMeaning": "sự thăng chức",
+          "example": "Her promotion to regional manager takes effect on the first of June.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "earn a promotion",
+            "promotion to manager"
+          ],
+          "frequencyRank": 88,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "resign",
+          "familyWords": [
+            "resignation"
+          ],
+          "phonetic": "",
+          "meaning": "to formally leave a job by one's own decision",
+          "vietnameseMeaning": "từ chức; xin nghỉ việc",
+          "example": "After accepting a role overseas, he gave notice that he would resign in May.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "resign from a position",
+            "resign effective"
+          ],
+          "frequencyRank": 89,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "terminate",
+          "familyWords": [
+            "termination"
+          ],
+          "phonetic": "",
+          "meaning": "to end an employment agreement or other formal arrangement",
+          "vietnameseMeaning": "chấm dứt; sa thải",
+          "example": "The company may terminate the contract if the project is canceled.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "terminate employment",
+            "terminate a contract"
+          ],
+          "frequencyRank": 90,
+          "difficultyLevel": "medium"
+        }
+      ]
+    },
+    {
+      "id": "lesson4",
+      "sort_order": 4,
+      "title": "Marketing & Advertising",
+      "category": "Marketing",
+      "description": "Terms for promoting products, understanding customers, and measuring advertising reach.",
+      "tip": "Advertising describes the paid message; a campaign is the coordinated effort across channels.",
+      "words": [
+        {
+          "word": "advertise",
+          "familyWords": [
+            "advertisement",
+            "advertising"
+          ],
+          "phonetic": "",
+          "meaning": "to promote a product, service, or event publicly",
+          "vietnameseMeaning": "quảng cáo",
+          "example": "The company will advertise its summer internship program on university websites.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "advertise a product",
+            "advertise for staff"
+          ],
+          "frequencyRank": 91,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "advertisement",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a public notice or message intended to promote something",
+          "vietnameseMeaning": "quảng cáo; mẩu quảng cáo",
+          "example": "The newspaper's advertisement lists the store's weekend hours and discounts.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "place an advertisement",
+            "online advertisement"
+          ],
+          "frequencyRank": 92,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "audience",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the people a message, performance, or product is intended to reach",
+          "vietnameseMeaning": "đối tượng khán giả; người xem",
+          "example": "The campaign's audience includes first-time home buyers in the region.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "target audience",
+            "reach an audience"
+          ],
+          "frequencyRank": 93,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "brand",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a product or service identified by a particular name and image",
+          "vietnameseMeaning": "thương hiệu",
+          "example": "The redesigned packaging gives the brand a more recognizable appearance.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "brand image",
+            "build a brand"
+          ],
+          "frequencyRank": 94,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "campaign",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a planned series of activities to achieve a marketing or public goal",
+          "vietnameseMeaning": "chiến dịch",
+          "example": "A six-week campaign will introduce the updated delivery service to local businesses.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "marketing campaign",
+            "launch a campaign"
+          ],
+          "frequencyRank": 95,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "commercial",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a paid advertisement shown on television, radio, or online video",
+          "vietnameseMeaning": "quảng cáo trên truyền hình/phát thanh",
+          "example": "The radio commercial directs listeners to the store's new website.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "television commercial",
+            "air a commercial"
+          ],
+          "frequencyRank": 96,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "consumer",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a person who buys or uses goods and services",
+          "vietnameseMeaning": "người tiêu dùng",
+          "example": "Consumer feedback led the manufacturer to offer a smaller package size.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "consumer behavior",
+            "consumer demand"
+          ],
+          "frequencyRank": 97,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "coupon",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a voucher that allows a customer to receive a discount",
+          "vietnameseMeaning": "phiếu giảm giá",
+          "example": "Customers can present the coupon at checkout to save ten percent.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "discount coupon",
+            "redeem a coupon"
+          ],
+          "frequencyRank": 98,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "demographic",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a group of people described by characteristics such as age or income",
+          "vietnameseMeaning": "nhóm nhân khẩu học",
+          "example": "The survey compared purchasing habits across each demographic.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "target demographic",
+            "demographic data"
+          ],
+          "frequencyRank": 99,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "endorsement",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "public support or approval, especially by a well-known person",
+          "vietnameseMeaning": "sự chứng thực; lời quảng bá",
+          "example": "The athlete's endorsement helped the company attract younger customers.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "celebrity endorsement",
+            "product endorsement"
+          ],
+          "frequencyRank": 100,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "exhibit",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a display at a trade show or public event",
+          "vietnameseMeaning": "gian trưng bày; vật trưng bày",
+          "example": "Visitors can test the new payment terminals at the company's exhibit.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "trade-show exhibit",
+            "exhibit space"
+          ],
+          "frequencyRank": 101,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "feature",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a notable or useful part of a product or service",
+          "vietnameseMeaning": "tính năng; đặc điểm",
+          "example": "A longer battery life is the feature customers mention most often.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "product feature",
+            "special feature"
+          ],
+          "frequencyRank": 102,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "flyer",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a small printed sheet used to advertise or announce something",
+          "vietnameseMeaning": "tờ rơi",
+          "example": "Volunteers distributed a flyer announcing the opening of the new branch.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "promotional flyer",
+            "print a flyer"
+          ],
+          "frequencyRank": 103,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "market",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the group of potential customers for a product or service",
+          "vietnameseMeaning": "thị trường",
+          "example": "The company plans to enter the Canadian market next spring.",
+          "partOfSpeech": "noun",
+          "tip": "Here market is a group of customers, not a physical marketplace.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "target market",
+            "market share"
+          ],
+          "frequencyRank": 104,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "market research",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the collection and analysis of information about customers and markets",
+          "vietnameseMeaning": "nghiên cứu thị trường",
+          "example": "Market research showed that commuters prefer a monthly transit pass.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "conduct market research",
+            "market research data"
+          ],
+          "frequencyRank": 105,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "media",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the channels used to communicate news or advertising to the public",
+          "vietnameseMeaning": "truyền thông; phương tiện truyền thông",
+          "example": "The agency selected social media and local radio for the regional launch.",
+          "partOfSpeech": "noun",
+          "tip": "Media is the plural form of medium, but is commonly treated as singular collectively.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "social media",
+            "media coverage"
+          ],
+          "frequencyRank": 106,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "brand awareness",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the extent to which consumers recognize or remember a particular brand",
+          "vietnameseMeaning": "m?c ?? nh?n bi?t th??ng hi?u",
+          "example": "The regional campaign increased brand awareness among first-time buyers.",
+          "partOfSpeech": "phrase",
+          "tip": "Brand awareness measures recognition; it does not necessarily mean a customer has made a purchase.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "increase brand awareness",
+            "brand awareness campaign"
+          ],
+          "frequencyRank": 107,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "online",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "using or available through the internet",
+          "vietnameseMeaning": "trực tuyến",
+          "example": "Customers can renew their memberships online without visiting a branch.",
+          "partOfSpeech": "adverb",
+          "tip": "Online is used as an adverb or adjective; this entry uses its adverb form.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "shop online",
+            "advertise online"
+          ],
+          "frequencyRank": 108,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "persuade",
+          "familyWords": [
+            "persuasive",
+            "persuasion"
+          ],
+          "phonetic": "",
+          "meaning": "to cause someone to agree or take action through reasoning or appeal",
+          "vietnameseMeaning": "thuyết phục",
+          "example": "The sales presentation persuaded several distributors to try the new packaging.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "persuade customers",
+            "persuade someone to"
+          ],
+          "frequencyRank": 109,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "product launch",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the introduction of a new product to the market",
+          "vietnameseMeaning": "sự ra mắt sản phẩm",
+          "example": "The product launch is scheduled for the week before the industry expo.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "plan a product launch",
+            "product launch event"
+          ],
+          "frequencyRank": 110,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "discount",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a reduction from the usual price of a product or service",
+          "vietnameseMeaning": "sự giảm giá; khoản chiết khấu",
+          "example": "The retailer offered a discount to customers who ordered before the end of the month.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "volume discount",
+            "offer a discount"
+          ],
+          "frequencyRank": 111,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "public relations",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the work of managing an organization's public image and communication",
+          "vietnameseMeaning": "quan hệ công chúng",
+          "example": "Public relations staff prepared a statement about the new recycling program.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "public relations team",
+            "public relations campaign"
+          ],
+          "frequencyRank": 112,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "publicity",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "public attention or information that helps promote something",
+          "vietnameseMeaning": "sự quảng bá; sự chú ý của công chúng",
+          "example": "The charity event received positive publicity in the local business press.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "gain publicity",
+            "media publicity"
+          ],
+          "frequencyRank": 113,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "reach",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the number or range of people exposed to a message",
+          "vietnameseMeaning": "phạm vi tiếp cận",
+          "example": "The newsletter's reach grew after the company added a mobile subscription option.",
+          "partOfSpeech": "noun",
+          "tip": "Marketing reach counts people exposed to a message, not necessarily buyers.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "audience reach",
+            "increase reach"
+          ],
+          "frequencyRank": 114,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "retailer",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a business that sells goods directly to consumers",
+          "vietnameseMeaning": "nhà bán lẻ",
+          "example": "The retailer will stock the new line in twenty stores this month.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "online retailer",
+            "major retailer"
+          ],
+          "frequencyRank": 115,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "slogan",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a short, memorable phrase used in advertising or promotion",
+          "vietnameseMeaning": "khẩu hiệu",
+          "example": "The agency tested three slogan options with a group of regular customers.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "advertising slogan",
+            "brand slogan"
+          ],
+          "frequencyRank": 116,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "sponsor",
+          "familyWords": [
+            "sponsorship"
+          ],
+          "phonetic": "",
+          "meaning": "to provide money or support for an event or activity",
+          "vietnameseMeaning": "tài trợ",
+          "example": "A local bank agreed to sponsor the entrepreneurship conference.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "sponsor an event",
+            "corporate sponsor"
+          ],
+          "frequencyRank": 117,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "survey",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a set of questions used to collect information or opinions",
+          "vietnameseMeaning": "bản khảo sát; cuộc khảo sát",
+          "example": "The customer survey asks shoppers to rate the new checkout process.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "conduct a survey",
+            "customer survey"
+          ],
+          "frequencyRank": 118,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "target",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "to direct a product or message toward a particular group",
+          "vietnameseMeaning": "nhắm đến; hướng tới",
+          "example": "The retailer will target its email offer to customers who bought outdoor gear.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "target a market",
+            "target customers"
+          ],
+          "frequencyRank": 119,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "testimonial",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a statement from a customer describing a positive experience",
+          "vietnameseMeaning": "lời chứng thực; nhận xét của khách hàng",
+          "example": "The website features a testimonial from a client who uses the service daily.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "customer testimonial",
+            "publish a testimonial"
+          ],
+          "frequencyRank": 120,
+          "difficultyLevel": "medium"
+        }
+      ]
+    },
+    {
+      "id": "lesson5",
+      "sort_order": 5,
+      "title": "Finance & Accounting",
+      "category": "Finance",
+      "description": "Essential terms for budgets, bookkeeping, business payments, and financial performance.",
+      "tip": "Track whether a figure is money received, money spent, or an amount still owed.",
+      "words": [
+        {
+          "word": "account",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a financial arrangement for recording money held or transactions made",
+          "vietnameseMeaning": "tài khoản",
+          "example": "The supplier asked the accounting team to verify its bank account details.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "bank account",
+            "account balance"
+          ],
+          "frequencyRank": 121,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "accounting",
+          "familyWords": [
+            "account",
+            "accountant"
+          ],
+          "phonetic": "",
+          "meaning": "the work of recording and reporting an organization's financial activity",
+          "vietnameseMeaning": "kế toán; công tác kế toán",
+          "example": "Accounting closes the monthly books after all branch reports arrive.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "accounting department",
+            "accounting records"
+          ],
+          "frequencyRank": 122,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "accountant",
+          "familyWords": [
+            "account",
+            "accounting"
+          ],
+          "phonetic": "",
+          "meaning": "a person whose job is to prepare or examine financial records",
+          "vietnameseMeaning": "kế toán viên",
+          "example": "An accountant reviewed the expense claims before reimbursement.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "certified accountant",
+            "hire an accountant"
+          ],
+          "frequencyRank": 123,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "balance",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the amount of money remaining in an account after additions and deductions",
+          "vietnameseMeaning": "số dư; số dư tài khoản",
+          "example": "The online statement shows a balance of $4,820 after the transfer.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "account balance",
+            "outstanding balance"
+          ],
+          "frequencyRank": 124,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "budget",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a plan estimating income and spending over a period of time",
+          "vietnameseMeaning": "ngân sách",
+          "example": "The department revised its travel budget after airfare prices increased.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "annual budget",
+            "stay within budget"
+          ],
+          "frequencyRank": 125,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "cash flow",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the movement of money into and out of a business",
+          "vietnameseMeaning": "dòng tiền",
+          "example": "Seasonal cash flow improves when customers pay their invoices promptly.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "cash-flow forecast",
+            "positive cash flow"
+          ],
+          "frequencyRank": 126,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "charge",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an amount of money requested for a service or product",
+          "vietnameseMeaning": "khoản phí",
+          "example": "The hotel removed the room-service charge after correcting the billing error.",
+          "partOfSpeech": "noun",
+          "tip": "A charge is a fee; charge can also be a verb meaning to bill someone.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "service charge",
+            "additional charge"
+          ],
+          "frequencyRank": 127,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "credit",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money available to borrow or an amount added to an account",
+          "vietnameseMeaning": "tín dụng; khoản ghi có",
+          "example": "The returned equipment was recorded as a credit on the next statement.",
+          "partOfSpeech": "noun",
+          "tip": "A credit may add funds to an account; credit can also mean borrowing capacity.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "credit limit",
+            "credit an account"
+          ],
+          "frequencyRank": 128,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "debt",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money that is owed to another person or organization",
+          "vietnameseMeaning": "khoản nợ",
+          "example": "The company plans to repay its short-term debt before expanding the warehouse.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "pay off debt",
+            "outstanding debt"
+          ],
+          "frequencyRank": 129,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "deposit",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money placed into an account or paid in advance",
+          "vietnameseMeaning": "tiền gửi; khoản đặt cọc",
+          "example": "A deposit is required to reserve the meeting rooms for the full week.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "make a deposit",
+            "security deposit"
+          ],
+          "frequencyRank": 130,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "expense",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a cost incurred in doing business or completing an activity",
+          "vietnameseMeaning": "chi phí",
+          "example": "The conference registration fee is a reimbursable business expense.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "travel expense",
+            "operating expenses"
+          ],
+          "frequencyRank": 131,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "financial",
+          "familyWords": [
+            "finance",
+            "financially"
+          ],
+          "phonetic": "",
+          "meaning": "relating to money, finance, or the management of funds",
+          "vietnameseMeaning": "thuộc tài chính",
+          "example": "The board requested a financial update before approving the expansion.",
+          "partOfSpeech": "adjective",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "financial report",
+            "financial institution"
+          ],
+          "frequencyRank": 132,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "projection",
+          "familyWords": [
+            "project"
+          ],
+          "phonetic": "",
+          "meaning": "an estimate of a future amount or result based on current information",
+          "vietnameseMeaning": "d? b?o; ??c t?nh",
+          "example": "The finance team revised its sales projection after receiving the latest orders from distributors.",
+          "partOfSpeech": "noun",
+          "tip": "A financial projection is an estimate, not a confirmed result.",
+          "note": "",
+          "synonyms": [
+            "estimate"
+          ],
+          "antonyms": [],
+          "collocations": [
+            "sales projection",
+            "financial projection"
+          ],
+          "frequencyRank": 133,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "income",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money received, especially by a business or person",
+          "vietnameseMeaning": "thu nhập; doanh thu",
+          "example": "Rental income helped cover the maintenance costs of the office building.",
+          "partOfSpeech": "noun",
+          "tip": "Income is money received; revenue usually refers to an organization's business income.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "annual income",
+            "income statement"
+          ],
+          "frequencyRank": 134,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "invoice",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a document listing goods or services supplied and the amount due",
+          "vietnameseMeaning": "hóa đơn thanh toán",
+          "example": "Please attach the purchase order number to the invoice before sending it.",
+          "partOfSpeech": "noun",
+          "tip": "An invoice requests payment; a receipt confirms payment was received.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "issue an invoice",
+            "overdue invoice"
+          ],
+          "frequencyRank": 135,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "ledger",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a book or digital record containing financial accounts",
+          "vietnameseMeaning": "sổ cái kế toán",
+          "example": "The bookkeeper entered the adjustment in the general ledger.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "general ledger",
+            "ledger entry"
+          ],
+          "frequencyRank": 136,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "loan",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money borrowed that must be repaid, usually with interest",
+          "vietnameseMeaning": "khoản vay",
+          "example": "The company obtained a low-interest loan to purchase delivery vehicles.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "business loan",
+            "repay a loan"
+          ],
+          "frequencyRank": 137,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "loss",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a financial amount by which costs exceed income",
+          "vietnameseMeaning": "khoản lỗ",
+          "example": "The retailer reported a small loss after closing two underperforming stores.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "operating loss",
+            "report a loss"
+          ],
+          "frequencyRank": 138,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "margin",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the difference between a product's selling price and its cost",
+          "vietnameseMeaning": "biên lợi nhuận",
+          "example": "A lower shipping rate would improve the profit margin on each order.",
+          "partOfSpeech": "noun",
+          "tip": "Profit margin is commonly expressed as a percentage of sales.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "profit margin",
+            "gross margin"
+          ],
+          "frequencyRank": 139,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "payment",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money given to settle an amount owed or to buy something",
+          "vietnameseMeaning": "khoản thanh toán",
+          "example": "The final payment is due within thirty days of installation.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "make a payment",
+            "payment terms"
+          ],
+          "frequencyRank": 140,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "payroll",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "the process or total amount of paying an organization's employees",
+          "vietnameseMeaning": "bảng lương; việc trả lương",
+          "example": "Payroll will process the overtime adjustments on Friday.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "payroll department",
+            "payroll system"
+          ],
+          "frequencyRank": 141,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "profit",
+          "familyWords": [
+            "profitable"
+          ],
+          "phonetic": "",
+          "meaning": "the money remaining when business costs are subtracted from income",
+          "vietnameseMeaning": "lợi nhuận",
+          "example": "Higher service revenue increased the firm's profit for the quarter.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "earn a profit",
+            "net profit"
+          ],
+          "frequencyRank": 142,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "purchase order",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a document authorizing a seller to provide specified goods or services",
+          "vietnameseMeaning": "đơn đặt hàng",
+          "example": "The vendor cannot ship the monitors until it receives a purchase order.",
+          "partOfSpeech": "phrase",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "issue a purchase order",
+            "purchase order number"
+          ],
+          "frequencyRank": 143,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "balance sheet",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a financial statement showing an organization?s assets, liabilities, and equity at a particular date",
+          "vietnameseMeaning": "b?ng c?n ??i k? to?n",
+          "example": "The auditors compared the balance sheet with the year-end account records.",
+          "partOfSpeech": "phrase",
+          "tip": "A balance sheet reports financial position at a specific point in time.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "prepare a balance sheet",
+            "annual balance sheet"
+          ],
+          "frequencyRank": 144,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "operating expense",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a cost incurred through the normal day-to-day activities of running a business",
+          "vietnameseMeaning": "chi ph? ho?t ??ng",
+          "example": "The company reduced its operating expenses by consolidating two regional offices.",
+          "partOfSpeech": "phrase",
+          "tip": "Operating expenses are deducted from revenue when calculating operating income.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "operating expenses",
+            "reduce operating expenses"
+          ],
+          "frequencyRank": 145,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "statement",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "a document showing transactions and the amount due or available",
+          "vietnameseMeaning": "bảng kê; bản sao kê",
+          "example": "The bank statement lists the wire transfer made on Monday.",
+          "partOfSpeech": "noun",
+          "tip": "A bank statement summarizes account activity over a period.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "bank statement",
+            "account statement"
+          ],
+          "frequencyRank": 146,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "tax",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "money required by the government on income, goods, or property",
+          "vietnameseMeaning": "thuế",
+          "example": "The finance team calculated sales tax for every regional office.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "sales tax",
+            "file a tax return"
+          ],
+          "frequencyRank": 147,
+          "difficultyLevel": "easy"
+        },
+        {
+          "word": "transaction",
+          "familyWords": [
+            "transact"
+          ],
+          "phonetic": "",
+          "meaning": "an instance of buying, selling, or transferring money or goods",
+          "vietnameseMeaning": "giao dịch",
+          "example": "The system flagged the duplicate transaction for review.",
+          "partOfSpeech": "noun",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "financial transaction",
+            "record a transaction"
+          ],
+          "frequencyRank": 148,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "wire transfer",
+          "familyWords": [],
+          "phonetic": "",
+          "meaning": "an electronic transfer of money from one bank account to another, often across banks or countries",
+          "vietnameseMeaning": "chuy?n ti?n b?ng ?i?n chuy?n kho?n",
+          "example": "The overseas supplier requested payment by wire transfer before releasing the replacement parts.",
+          "partOfSpeech": "phrase",
+          "tip": "A wire transfer sends funds electronically between bank accounts; check the recipient details before payment.",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "send a wire transfer",
+            "wire transfer fee"
+          ],
+          "frequencyRank": 149,
+          "difficultyLevel": "medium"
+        },
+        {
+          "word": "withdraw",
+          "familyWords": [
+            "withdrawal"
+          ],
+          "phonetic": "",
+          "meaning": "to take money out of an account",
+          "vietnameseMeaning": "rút tiền",
+          "example": "Managers can withdraw petty cash after signing the office ledger.",
+          "partOfSpeech": "verb",
+          "tip": "",
+          "note": "",
+          "synonyms": [],
+          "antonyms": [],
+          "collocations": [
+            "withdraw cash",
+            "withdraw funds"
+          ],
+          "frequencyRank": 150,
+          "difficultyLevel": "easy"
+        }
+      ]
+    }
+  ]
+}

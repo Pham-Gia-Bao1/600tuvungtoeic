@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-export function useFetch<T = any>(fn: () => Promise<T>) {
+export function useFetch<T = unknown>(fn: () => Promise<T>) {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<any>(null);
+  const [error, setError] = useState<unknown>(null);
 
   useEffect(() => {
     let mounted = true;

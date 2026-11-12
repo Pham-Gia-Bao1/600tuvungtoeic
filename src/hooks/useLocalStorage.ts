@@ -1,16 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function useLocalStorage<T>(key: string, initial: T) {
-  const [state, setState] = useState<T>(() => {
+  const [state, setState] = useState<T>(initial);
+
+  useEffect(() => {
     try {
-      const raw = localStorage.getItem(key);
-      return raw ? JSON.parse(raw) : initial;
-    } catch { return initial; }
-  });
+      const raw = window.localStorage.getItem(key);
+      if (raw !== null) setState(JSON.parse(raw) as T);
+    } catch (error) {
+      console.error(`Unable to load local storage key "${key}":`, error);
+    }
+  }, [key]);
 
   const set = (v: T) => {
     setState(v);
-    try { localStorage.setItem(key, JSON.stringify(v)); } catch {}
+    try {
+      window.localStorage.setItem(key, JSON.stringify(v));
+    } catch (error) {
+      console.error(`Unable to save local storage key "${key}":`, error);
+    }
   };
 
   return [state, set] as const;

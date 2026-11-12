@@ -1,5 +1,4 @@
 // import React from 'react';
-// import { useParams } from 'react-router-dom';
 // import { WordInfo } from './WordInfo';
 // import { Button } from '@/components/common/Button/Button';
 // import { useVocab } from '../../hooks/useVocab';

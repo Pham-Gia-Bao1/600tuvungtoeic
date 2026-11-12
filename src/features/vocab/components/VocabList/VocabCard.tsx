@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/common/Button/Button';
 import { Icon } from '@/components/common/Icon/Icon';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { VocabWord } from '../../types/vocab.types';
 
 interface VocabCardProps {
@@ -19,7 +19,7 @@ export const VocabCard: React.FC<VocabCardProps> = ({ word }) => {
         </div>
         <div className="flex flex-col items-end gap-2 ml-4">
           <Icon name="volume-2" size={20} className="cursor-pointer text-[var(--color-primary)]" /> {/* Play audio on click */}
-          <Link to={`/vocab/${word.id}`}>
+          <Link href={`/vocab/${word.id}`}>
             <Button variant="ghost" size="sm">
               Chi tiết
             </Button>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
@@ -39,16 +39,16 @@ const Footer: React.FC = () => {
             Nền tảng tự học TOEIC toàn diện cho người Việt.
           </p>
           <div className="flex items-center gap-3 mt-4">
-            <Link to="https://facebook.com" target="_blank">
+            <Link href="https://facebook.com" target="_blank">
               <Facebook className="text-gray-500 hover:text-primary" size={18} />
             </Link>
-            <Link to="https://twitter.com" target="_blank">
+            <Link href="https://twitter.com" target="_blank">
               <Twitter className="text-gray-500 hover:text-primary" size={18} />
             </Link>
-            <Link to="https://linkedin.com" target="_blank">
+            <Link href="https://linkedin.com" target="_blank">
               <Linkedin className="text-gray-500 hover:text-primary" size={18} />
             </Link>
-            <Link to="https://instagram.com" target="_blank">
+            <Link href="https://instagram.com" target="_blank">
               <Instagram className="text-gray-500 hover:text-primary" size={18} />
             </Link>
           </div>
@@ -70,22 +70,22 @@ const Footer: React.FC = () => {
           <h4 className="font-semibold mb-3">Menu</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link to="/about" className="hover:text-primary">
+              <Link href="/about" className="hover:text-primary">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/blog" className="hover:text-primary">
+              <Link href="/blog" className="hover:text-primary">
                 Blog
               </Link>
             </li>
             <li>
-              <Link to="/services" className="hover:text-primary">
+              <Link href="/services" className="hover:text-primary">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-primary">
+              <Link href="/contact" className="hover:text-primary">
                 Contact
               </Link>
             </li>
@@ -126,13 +126,13 @@ const Footer: React.FC = () => {
       <div className="bg-gray-900 text-gray-300 text-sm py-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-2">
           <div className="flex gap-4">
-            <Link to="/privacy" className="hover:text-white">
+            <Link href="/privacy" className="hover:text-white">
               Privacy Policy
             </Link>
-            <Link to="/history" className="hover:text-white">
+            <Link href="/history" className="hover:text-white">
               Our History
             </Link>
-            <Link to="/what-we-do" className="hover:text-white">
+            <Link href="/what-we-do" className="hover:text-white">
               What We Do
             </Link>
           </div>

@@ -1,6 +1,5 @@
 import React from "react";
-import { Button } from "@/components/common/Button/Button";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Lesson } from "../../types/vocab.types";
 
 interface LessonCardProps {
@@ -50,14 +49,12 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson }) => {
         </div>
 
         {/* CTA Button */}
-        <Button variant="primary">
-          <Link
-            to={`/vocab/lesson/${lesson.id}`}
-            className="block w-full text-center"
-          >
-            Start Lesson
-          </Link>
-        </Button>
+        <Link
+          href={`/vocab/lesson/${lesson.id}`}
+          className="inline-flex w-full items-center justify-center rounded-lg border border-[var(--color-primary)] bg-[var(--color-primary)] px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-[var(--color-primary-hover)]"
+        >
+          Study Topic
+        </Link>
       </div>
     </div>
   );
